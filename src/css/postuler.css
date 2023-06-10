@@ -1,0 +1,37 @@
+:root {
+	--fontWeight-helvetica-light: 300;
+	--fontWeight-helvetica-regular: 400;
+	--fontWeight-helvetica-bold: 700;
+	--fontWeight-helvetica-extra-bold: 900;
+	--fontFamily-helvetica: 'Helvetica', sans-serif;
+  }
+  :root {
+	--colorOrange: #EB6425;
+	--colorBleu: #13ABE4;
+	--colorVert: #85C141;
+	--colorBlanche: #FFFFFF;
+	--colorNoir: #292929;
+	--colorModalContent:#F8F4F9;
+  }
+
+  .modal-content{
+    background-color: var(--colorModalContent) !important;
+    border: 2px solid rgba(235, 100, 37, 0.60) !important;
+  }
+  .modal-content .CV label{
+    color: green !important;
+    font-weight: var(--fontWeight-helvetica-bold);
+    font-size: 13px;
+  }
+  .modal-header h5{
+    font-weight: var(--fontWeight-helvetica-bold) !important;
+  }
+  .modal-header .btn-fermer{
+    background-color: var(--colorOrange) !important;
+    color: var(--colorBlanche) !important;
+  }
+  .modal-body button{
+    background-color: var(--colorOrange) !important;
+    color: var(--colorBlanche) !important;
+    font-weight: var(--fontWeight-helvetica-regular) !important;
+  }

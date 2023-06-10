@@ -1,0 +1,63 @@
+:root {
+    --fontWeight-helvetica-light: 300;
+    --fontWeight-helvetica-regular: 400;
+    --fontWeight-helvetica-bold: 700;
+    --fontWeight-helvetica-extra-bold: 900;
+    --fontFamily-helvetica: 'Helvetica', sans-serif;
+}
+:root {
+    --colorOrange: #EB6425;
+    --colorBleu: #13ABE4;
+    --colorVert: #85C141;
+    --colorBlanche: #FFFFFF;
+    --colorNoir: #292929;
+    --colorModalContent:#F8F4F9;
+}
+.faq-title{
+    background-color: rgba(235, 100, 37, .10);
+    color: var(--colorOrange);
+    margin: 60px 0 0 0;
+    padding: 75px 0 75px 0;
+}
+.faq-title h1{
+    font-weight: var(--fontWeight-helvetica-extra-bold);
+    text-align: center;
+}
+.faq-title p{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: var(--fontWeight-helvetica-bold);
+    color: var(--colorNoir);
+}
+.faq-title p a{
+    text-decoration: none;
+    color: var(--colorNoir);
+}
+.faq-title p a:hover{
+    text-decoration: none;
+    color: var(--colorOrange);
+}
+.centre_aide{
+    margin: 0 auto;
+    width: 800px;   
+}
+.centre_aide h3{
+    font-weight: 900;
+    color: var(--colorBleu) !important;
+    margin-top: 30px;
+}
+.centre_aide p{
+    font-weight: 600;
+    color: var(--colorNoir) !important;
+}
+
+
+
+/* #Media
+================================================== */
+
+@media (max-width: 767px) { 
+    .centre_aide{
+        width: auto;
+    }
+}

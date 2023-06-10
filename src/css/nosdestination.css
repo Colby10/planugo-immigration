@@ -1,0 +1,108 @@
+:root {
+    --fontWeight-helvetica-light: 300;
+    --fontWeight-helvetica-regular: 400;
+    --fontWeight-helvetica-bold: 700;
+    --fontWeight-helvetica-extra-bold: 900;
+    --fontFamily-helvetica: 'Helvetica', sans-serif;
+}
+:root {
+    --colorOrange: #EB6425;
+    --colorBleu: #13ABE4;
+    --colorVert: #85C141;
+    --colorBlanche: #FFFFFF;
+    --colorNoir: #292929;
+    --colorModalContent:#F8F4F9;
+}
+.section_destination{
+    background-color: rgba(19, 171, 228, .10);
+}
+.wrap-content-destination{
+    padding: 30px 0 50px 0;
+}
+.wrap-content-destination h1{
+    color: var(--colorBleu);
+    font-weight: var(--fontWeight-helvetica-extra-bold);
+}
+.spaceOne{
+    width: 100px;
+    height: 5px;
+    background-color: var(--colorOrange) !important;
+    margin: 0px 0 20px 0;
+}
+.nos_offres{
+    margin-bottom: 15px;
+    padding: 30px 30px 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+.nos_offres h3{
+    color: var(--colorOrange) !important;
+}
+.nos_offres .titre{
+    color: var(--colorOrange) !important;
+    font-weight: var(--fontWeight-helvetica-bold);
+}
+.nos_offres .clasname p{
+    font-size: 17px;
+    font-weight: var(--fontWeight-helvetica-light);
+}
+.nos_offres .clasname img{
+    width: 500px;
+    height: 320px;
+}
+/*.nos_offres .clasname img{
+    transition: 0.3s;
+}
+.nos_offres .clasname img:hover {
+    transform: scale(1.1);
+}*/
+
+.nos_offres .clasname p span{
+    font-weight: var(--fontWeight-helvetica-bold) !important;
+}
+.nos_offres .clasname .fa-solid{
+    color: #048444 !important;
+}
+.nos_offres .clasname button{
+    color: var(--colorBlanche) !important;
+    background-color: var(--colorOrange) !important;
+    font-weight: var(--fontWeight-helvetica-regular);
+    float: right;
+}
+.nos_offres .clasname button:hover{
+    border: 1px solid var(--colorBleu) !important;
+    background-color: var(--colorBleu) !important;
+}
+
+
+
+
+/* #Media
+================================================== */
+
+@media (max-width: 767px) { 
+    .wrap-content-destination{
+        margin-top: 100px;
+    }
+    .nos_offres .clasname p{
+        font-size: 15px;
+        font-weight: var(--fontWeight-helvetica-light);
+    }
+    .nos_offres .clasname p span{
+        font-weight: var(--fontWeight-helvetica-bold) !important;
+    }
+    .nos_offres .clasname button{
+        float: none !important;
+        width: 100%;
+    }
+    .nos_offres .text_explication{
+        display: none;
+    }
+    .nos_offres .clasname img{
+        display: none;
+    }
+    .nos_offres h3{
+        display: none;
+    }
+}

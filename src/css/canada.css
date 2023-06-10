@@ -1,0 +1,102 @@
+:root {
+    --fontWeight-helvetica-light: 300;
+    --fontWeight-helvetica-regular: 400;
+    --fontWeight-helvetica-bold: 700;
+    --fontWeight-helvetica-extra-bold: 900;
+    --fontFamily-helvetica: 'Helvetica', sans-serif;
+}
+:root {
+    --colorOrange: #EB6425;
+    --colorBleu: #13ABE4;
+    --colorVert: #85C141;
+    --colorBlanche: #FFFFFF;
+    --colorNoir: #292929;
+    --colorModalContent:#F8F4F9;
+}
+.section_service{
+    background-color: rgba(19, 171, 228, .10) !important;
+    /*background-color: rgba(240, 240, 240, 100) !important;*/
+    padding: 15px 0px 15px 0px;
+}
+.wrap-content-canada{
+    padding: 30px 0 50px 0;
+}
+.wrap-content-canada h1{
+    color: var(--colorBleu);
+    font-weight: var(--fontWeight-helvetica-extra-bold);
+    margin-top: 90px;
+}
+.section_service h1{
+    color: var(--colorBleu);
+    font-weight: var(--fontWeight-helvetica-extra-bold);
+    margin-top: 20px;
+}
+.spaceOne{
+    width: 100px;
+    height: 5px;
+    background-color: var(--colorOrange) !important;
+    margin: 0px 0 20px 0;
+}
+/****************Comment ca marche****************************/
+
+.wrap-content-canada .comment{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.comment .div-une{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(235, 100, 37, .10) !important;
+}
+.comment .div-une:hover{
+    background-color: rgb(240, 240, 240) !important;
+}
+.comment img{
+    height: 90px;
+    border-radius: 50%;
+}
+.comment h3{
+    margin-top: 15px;
+    font-weight: var(--fontWeight-helvetica-bold);
+}
+.comment p a{
+    text-decoration: none;
+    font-weight: var(--fontWeight-helvetica-bold);
+    color: var(--colorOrange);
+}
+/************************Nos services****************************/
+
+
+
+.section_service .services{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.acc{
+    border-radius: 10px;
+    background-color: var(--colorBlanche);
+    padding: 15px;
+    display: flex;
+}
+.acc:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.acc img{
+    height: 90px;
+    border-radius: 50%;
+}
+.acc .text{
+    padding: 0px 0px 0px 20px !important;
+}
+.acc .text h4{
+    font-weight: var(--fontWeight-helvetica-bold);
+    color: var(--colorOrange);
+}
+.text a{
+    text-decoration: none;
+    color: var(--colorOrange);
+    font-weight: var(--fontWeight-helvetica-bold);
+}
+

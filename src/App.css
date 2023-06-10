@@ -1,38 +1,99 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Helvetica&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Helvetica:600);
+
+:root {
+  --fontWeight-helvetica-light: 300;
+  --fontWeight-helvetica-regular: 400;
+  --fontWeight-helvetica-bold: 700;
+  --fontWeight-helvetica-extra-bold: 900;
+  --fontFamily-helvetica: 'Helvetica', sans-serif;
+}
+:root {
+  --colorOrange: #EB6425;
+  --colorBleu: #13ABE4;
+  --colorVert: #85C141;
+  --colorBlanche: #FFFFFF;
+  --colorNoir: #292929;
+  --colorModalContent:#F8F4F9;
+}
+
+body{
+  font-family: var(--fontFamily-helvetica) !important;
+  margin: 0;
+  padding: 0;
+  background-color: #fff !important; /*#cfcaff*/
+}
+
+.textarea1 {
+  height: 200px !important;
+}
+.errors_input{
+  font-size: 14px !important;
+}
+
+ /********************** Button supprimer********************/
+.modal-confirm {
+  color: #6b6b6b;
+  width: 400px;
+  font-weight: var(--fontWeight-helvetica-regular) !important;
+}
+.modal-confirm .modal-header {
+  border-bottom: none;
+  position: relative;
+}
+.modal-confirm .modal-footer {
+  border: none;
   text-align: center;
+  border-radius: 5px;
+  font-size: 13px;
+  padding: 10px 15px 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.modal-confirm .modal-footer{
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.modal-confirm .icon-box i {
+  color: #FC0404;
+  font-size: 95px;
+  display: inline-block;
+  margin-top: 13px;
+}
+.modal-confirm .btn {
+  color: var(--colorBlanche);
+  border-radius: 4px;
+  background: #60c7c1;
+  text-decoration: none;
+  transition: all 0.4s;
+  line-height: normal;
+  min-width: 120px;
+  border: none;
+  min-height: 40px;
+  border-radius: 3px;
+  margin: 0 5px;
+  outline: none !important;
+}
+.modal-confirm .btn-danger{
+  background-color: #FC0404 !important;
+  color: var(--colorBlanche) !important;
+  font-weight: var(--fontWeight-helvetica-regular);
+}
+.modal-confirm .btn-info{
+  background-color: var(--colorOrange) !important;
+  color: var(--colorBlanche) !important;
+  font-weight: var(--fontWeight-helvetica-regular);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+ /*Spinner loading*/
+@keyframes spinner {
   to {
     transform: rotate(360deg);
   }
+}
+.spinner {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  border-top-color: rgba(9, 9, 9, 0.45);
+  animation: spinner 0.8s linear infinite;
 }
