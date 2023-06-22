@@ -6,6 +6,7 @@ import Carrousel from '../component_reuseable/Carrousel'
 import NosDestination from './NosDestination'
 import Blog from './Blog'
 import Temoignage from './Temoignage'
+import Presentation from './Presentation'
 
 
 
@@ -17,8 +18,10 @@ function Home() {
         <Navbar />
         <Carrousel />
         <div className="container">
+          <Presentation/>
+        </div>
+        <div className="container">
            <ModalPostuler/>
-
         </div>
       </div>
       <NosDestination />

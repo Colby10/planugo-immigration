@@ -13,7 +13,7 @@ const Faq = () => {
         <div className=" faq-title">
             <div className="container ">
                 <h1>Centre d'aide</h1>
-                <p><a href="/">Acceuil -</a> Centre d'aide</p>
+                <p><a href="/">Accueil -</a> Centre d'aide</p>
             </div>
         </div>
         <div className="container">

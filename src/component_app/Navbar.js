@@ -23,9 +23,11 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav ml-auto py-4 py-md-0">
                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                      <a className="nav-link" href="/canada">Canada</a>
+                    </li>
+                    <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                       <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Nos destinations</a>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="/canada">Canada</a>
                         <a className="dropdown-item" href="/allemagne">Allemagne</a>
                         <a className="dropdown-item" href="/russie">Russie</a>
                         <a className="dropdown-item" href="/bielorussie">Bielorussie</a>
@@ -42,7 +44,7 @@ function Navbar() {
                       </div>
                     </li>
                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
-                      <a className="nav-link" href="/faq">Centre d'aide ?</a>
+                      <a className="nav-link" href="/faq">FAQ ?</a>
                     </li>
                   </ul>
                 </div>

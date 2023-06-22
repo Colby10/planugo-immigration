@@ -57,6 +57,7 @@ export default function Login() {
               name={"Email"}
               placeholder="Adresse email"
               onChange={(event) => { setEmail(event.target.value); }}
+              required
 
             />
             <Input className="col-md-12 mb-4"
@@ -64,6 +65,7 @@ export default function Login() {
               name={"Password"}
               placeholder="Mot de passe"
               onChange={(event) => { setPassword(event.target.value); }}
+              required
 
             />
             <Button className=" btn btn-md btn-login col-md-12"

@@ -18,10 +18,10 @@
     /*background-color: rgba(240, 240, 240, 100) !important;*/
     padding: 15px 0px 15px 0px;
 }
-.wrap-content-canada{
+.wrap-presentation{
     padding: 30px 0 50px 0;
 }
-.wrap-content-canada h1{
+.wrap-presentation h1{
     color: var(--colorBleu);
     font-weight: var(--fontWeight-helvetica-extra-bold);
     margin-top: 90px;
@@ -39,7 +39,7 @@
 }
 /****************Comment ca marche****************************/
 
-.wrap-content-canada .comment{
+.wrap-presentation .comment{
     margin-top: 50px;
     justify-content: center;
     text-align: center;
@@ -114,3 +114,12 @@
     font-weight: var(--fontWeight-helvetica-regular);
 }
 
+
+/* #Media
+================================================== */
+
+@media (max-width: 767px) { 
+    .present{
+        display: none;
+    }
+}

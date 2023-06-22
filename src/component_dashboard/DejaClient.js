@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-import { collection, query, orderBy, where, onSnapshot, doc, deleteDoc } from "firebase/firestore";
+import { collection, query, orderBy, where, onSnapshot, doc, deleteDoc, updateDoc } from "firebase/firestore";
 import { db } from '../config-files/firebase';
 import '../css/homedashboard.css';
 import Input from '../component_reuseable/Input';
@@ -38,6 +38,35 @@ export const DejaClient = () => {
     }
   }
 
+  const handleEnd = async (id) => {
+    try {
+      await updateDoc(doc(db, 'Postulant', id), {
+
+        statut: "Terminer"
+
+      })
+      notifyClient();
+
+    } catch (err) {
+      alert(err)
+    }
+
+  }
+  const handleRembourser = async (id) => {
+    try {
+      await updateDoc(doc(db, 'Postulant', id), {
+
+        statut: "Change"
+
+      })
+      notifyClient();
+
+    } catch (err) {
+      alert(err)
+    }
+
+  }
+
   const notifyDelete = () =>
     toast.success("Ce candidat a été définitivement supprimer !", {
       position: "top-center",
@@ -51,6 +80,18 @@ export const DejaClient = () => {
       className: 'toast-message'
     });
 
+  const notifyClient = () =>
+    toast.success("Ce candidat est rembourser !", {
+      position: "top-center",
+      autoClose: 4000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: false,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+      className: 'toast-message'
+    });
 
   return (
 
@@ -124,6 +165,20 @@ export const DejaClient = () => {
                           data_placement="top"
                           title="Supprimer cette personne">
                           <i className="fa-sharp fa-solid fa-trash"></i>
+                        </button> |
+                        <button className="btn btn-sm color3"
+                          onClick={() => handleEnd(post.id)}
+                          data_toggle="tooltip"
+                          data_placement="top"
+                          title="Procedure terminer">
+                          <i className="fa-solid fa-hourglass-end"></i>
+                        </button> |
+                        <button className="btn btn-sm color4 mt-2"
+                          onClick={() => handleRembourser(post.id)}
+                          data_toggle="tooltip"
+                          data_placement="top"
+                          title="Rembourssement">
+                          <i className="fa-solid fa-coins"></i>
                         </button>
                       </td>
                     </tr>

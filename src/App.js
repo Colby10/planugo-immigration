@@ -10,6 +10,8 @@ import Dashboard from './component_dashboard/Dashboard';
 import Login from './component_auth/Login';
 import NosCv from './component_dashboard/NosCv';
 import { DejaClient } from './component_dashboard/DejaClient';
+import ProcedureTerminer from './component_dashboard/ProcedureTerminer';
+import ProcedureRembourser from './component_dashboard/ProcedureRembourser';
 import Profil from './component_auth/Profil';
 import Propos from './component_entreprise/Propos';
 import Contact from './component_entreprise/Contact';
@@ -66,6 +68,8 @@ function App() {
           <Route path="/mon-profil" element={isLog(<Profil />)} /> 
           <Route path="/nos-clients" element={isLog(<DejaClient />)} /> 
           <Route path="/contact-dashboard" element={isLog(<ContactDashboard />)} />
+          <Route path='/procedure-terminer' element={isLog(<ProcedureTerminer/>)}/>
+          <Route path='/rembourssement' element={isLog(<ProcedureRembourser/>)}/>
 
 
 

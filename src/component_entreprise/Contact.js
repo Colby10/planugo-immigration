@@ -62,7 +62,7 @@ export default function Contact() {
       <div className="wrap-contact">
         <div className="container ">
           <h1>Contact</h1>
-          <p><a href="/">Acceuil -</a> Contact</p>
+          <p><a href="/">Accueil -</a> Contact</p>
         </div>
       </div>
       <div className="container">

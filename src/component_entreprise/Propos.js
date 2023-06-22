@@ -14,7 +14,7 @@ export default function Propos() {
             <div className="wrap-propos">
                 <div className="container">
                     <h1>Qui sommes nous ?</h1>
-                    <p><a href="/">Acceuil -</a> A propos</p>
+                    <p><a href="/">Accueil -</a> A propos</p>
                 </div>
             </div>
             <div className="container">

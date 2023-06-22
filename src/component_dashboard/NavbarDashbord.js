@@ -27,7 +27,7 @@ export default function NavbarDashbord() {
     };
 
     const getUserr = async () => {
-        
+
         const localUser = (JSON.parse(localStorage.getItem("planugo-user") || "null"))
 
         if (!localUser)
@@ -68,6 +68,13 @@ export default function NavbarDashbord() {
                                         </li>
                                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                             <a className="nav-link" href="/nos-clients">Nos clients</a>
+                                        </li>
+                                        <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                            <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Procedure</a>
+                                            <div className="dropdown-menu">
+                                                <a className="dropdown-item" href="/procedure-terminer">Procedure terminer</a>
+                                                <a className="dropdown-item" href="/rembourssement">Remboursement</a>
+                                            </div>
                                         </li>
                                         <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                                             <a className="nav-link" href="/contact-dashboard">Contact</a>

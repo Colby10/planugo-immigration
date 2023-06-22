@@ -63,6 +63,13 @@
     cursor: pointer;
   }
 
+  td .color4{
+    background-color: var(--colorBleu) !important;
+    color: var(--colorBlanche) !important;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
   /*.add_new{
     padding: 10px 20px;
     color: var(--colorBlanche);
