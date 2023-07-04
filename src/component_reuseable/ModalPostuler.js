@@ -184,10 +184,29 @@ export default function ModalPostuler() {
 
                                 <Select className="col-md-12"
                                     options={[
-                                        { value: "Entretien", label: "Agent d'entretien" },
-                                        { value: "Ouvrier", label: "Maoeuvre maçon" },
+                                        { value: "Assembleur de bois", label: "Assembleur de bois " },
+                                        { value: "Tappisier / Rembourreur", label: "Tappisier / Rembourreur" },
+                                        { value: "Opérateur de production", label:"Opérateur de production" },
+                                        { value: "Opérateur de machine", label: "Opérateur de machine" },
+                                        { value: "Machiniste", label: "Machiniste" },
+                                        { value: "Informaticiens", label: "Informaticiens" },
+                                        { value: "Infirmier / Aide soignante", label: "Infirmier / Aide soignante" },
+                                        { value: "Concierge", label: "Concierge" },
+                                        { value: "Agent de sécurité", label: "Agent de sécurité" },
+                                        { value: "Agent d'entretien", label: "Agent d'entretien" },
+                                        { value: "Cuisinier", label: "Cuisinier" },
+                                        { value: "Serveur", label: "Serveur" },
+                                        { value: "Plongeur", label: "Plongeur " },
+                                        { value: "Maoeuvre maçon", label: "Maoeuvre maçon" },
                                         { value: "Caissiere", label: "Caissière" },
-                                        { value: "Securite", label: "Agent de securité" },
+                                        { value: "Électriciens", label: "Électriciens" },
+                                        { value: "Soudeur", label: "Soudeur" },
+                                        { value: "Chaudronier", label: "Chaudronier" },
+                                        { value: "Peintre", label: "Peintre" },
+                                        { value: "Carrossier", label: "Carrossier" },
+                                        { value: "Mécanicien auto", label: "Mécanicien auto" },
+                                        { value: "Mécanicien engin lourd", label: "Mécanicien engin lourd" },
+                                        
                                     ]}
                                     selected="Type d'emplois"
                                     value={values.type_emplois}
@@ -238,8 +257,11 @@ export default function ModalPostuler() {
                                 <Select className="col-md-6 mb-3"
                                     options={[
                                         { value: "Etude", label: "Etude" },
-                                        { value: "Travailleurs", label: "Travailleurs qualifiés" },
+                                        { value: "Contrat de travail", label: "Contrat de travail" },
                                         { value: "Tourisme", label: "Tourisme" },
+                                        { value: "Résidence permanente", label: "Résidence permanente" },
+                                        { value: "Entrée express ", label: "Entrée express " },
+                                       
                                     ]}
                                     selected="Type de procedure"
                                     name="type_de_procedure"

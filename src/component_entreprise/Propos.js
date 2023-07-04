@@ -61,7 +61,7 @@ export default function Propos() {
                             <div className="col-md-6">
                                 <div className="team1">
                                     <div className="divimg">
-                                        <img src={"./team/team.png"} className='img-fluid' alt="" />
+                                        <img src={"./team/ceo.jpg"} className='img-fluid' alt="" />
                                     </div>
                                     <div className="description">
                                         <h5>Esther Fotse</h5>
