@@ -22,38 +22,22 @@ export default function Propos() {
                     <div className="intro">
                         <h4>Introduction</h4>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ex modi quasi corporis quam 
-                            molestias tempora enim ad at harum quos nesciunt minus quas, vel quaerat illo eligendi repellat id.
-                            Iusto, accusamus id dolores pariatur porro maiores ab voluptatum reiciendis necessitatibus sequi 
-                            asperiores ipsam alias natus distinctio sapiente quisquam corrupti blanditiis optio modi ratione 
-                            officiis saepe quas. Dolorum, voluptatum tempore.
-                            Asperiores dolores quidem ad eveniet! Optio dignissimos accusamus sapiente. Nemo explicabo quae error 
-                            eveniet facere aliquam velit iure enim distinctio eos nulla saepe eaque quaerat voluptatem, incidunt 
-                            expedita at delectus?
-                            Et non ex tempore perspiciatis corrupti, delectus facere fuga modi nihil adipisci fugiat sit odit 
-                            inventore, labore voluptatibus recusandae voluptas est neque distinctio vel? Tempore veniam voluptas 
-                            atque. Blanditiis, adipisci?
+                            PlanUGo a été créer en février 2015 par <strong>Esther FOTSE</strong>. L'idée derrière cette
+                            startup était de connecter des passionnés de voyager qui souhaitent découvrir
+                            les destinations africaine. C'est au-fur-et-à-mesure de l'évolution dans le business,
+                            que nous avons décidé d'ouvrir un volet immigration car contactés par plusieurs 
+                            personnes désireuses d'immigrer en occident. <br />
                         </p>
                     </div>
                     <div className="mission">
                         <h4>Notre mission</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ex modi quasi corporis quam 
-                            molestias tempora enim ad at harum quos nesciunt minus quas, vel quaerat illo eligendi repellat id.
-                            Iusto, accusamus id dolores pariatur porro maiores ab voluptatum reiciendis necessitatibus sequi 
-                            asperiores ipsam alias natus distinctio sapiente quisquam corrupti blanditiis optio modi ratione 
-                            officiis saepe quas. Dolorum, voluptatum tempore.
-                            Asperiores dolores quidem ad eveniet! Optio dignissimos accusamus sapiente. Nemo explicabo quae error 
-                            eveniet facere aliquam velit iure enim distinctio eos nulla saepe eaque quaerat voluptatem, incidunt 
-                            expedita at delectus?
-                            Et non ex tempore perspiciatis corrupti, delectus facere fuga modi nihil adipisci fugiat sit odit 
-                            inventore, labore voluptatibus recusandae voluptas est neque distinctio vel? Tempore veniam voluptas 
-                            atque. Blanditiis, adipisci?
-                        </p>
+                        <p>- <strong>Accompagner</strong></p>
+                        <p>- <strong>Offrir des services distinctifs</strong></p>
+                        <p>- <strong>Faciliter la mise en œuvre de programmes d'immigration au Canada</strong></p>
                     </div>
                     <div className="team">
                         <h4>L'equipes</h4>
-                        <p>
+                        <p className='fw-bold'>
                             Une équipe de passionnés travaille au quotidien pour mener à bien ce projet dont 
                             l'objectif principale est d'avoir un maximun d'impact positif sur la vie des personnes.
                         </p>
@@ -65,11 +49,11 @@ export default function Propos() {
                                     </div>
                                     <div className="description">
                                         <h5>Esther Fotse</h5>
-                                        <span>CEO</span>
+                                        <strong>CEO</strong>
                                         <hr />
                                         <div className="social">
                                             <ButtonLink className="btn btn-sm facebook"
-                                                href="https://www.google.com"
+                                                href="https://web.facebook.com/reinesther"
                                                 icon={<i className="fa-brands fa-facebook"></i>}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
@@ -84,7 +68,7 @@ export default function Propos() {
                                             </ButtonLink>
                                             <ButtonLink
                                                 className="btn btn-sm telegram"
-                                                href="https://www.google.com"
+                                                href="https://t.me/immigrationbyplanugo"
                                                 icon={<i class="fa-brands fa-telegram"></i>}
                                                 target="_blank"
                                                 rel="noopener noreferrer">
@@ -99,12 +83,12 @@ export default function Propos() {
                                         <img src={"./team/team.png"} className='img-fluid' alt="" />
                                     </div>
                                     <div className="description">
-                                        <h5>Bethe</h5>
-                                        <span>Assistance</span>
+                                        <h5>Bethe Ndenga</h5>
+                                        <strong>Assistance</strong>
                                         <hr />
                                         <div className="social">
                                             <ButtonLink className="btn btn-sm facebook"
-                                                href="https://www.google.com"
+                                                href="https://web.facebook.com/berthe.ndenga.7"
                                                 icon={<i className="fa-brands fa-facebook"></i>}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
@@ -119,7 +103,7 @@ export default function Propos() {
                                             </ButtonLink>
                                             <ButtonLink
                                                 className="btn btn-sm telegram"
-                                                href="https://www.google.com"
+                                                href="https://t.me/immigrationbyplanugo"
                                                 icon={<i class="fa-brands fa-telegram"></i>}
                                                 target="_blank"
                                                 rel="noopener noreferrer">
@@ -135,7 +119,7 @@ export default function Propos() {
                                     </div>
                                     <div className="description">
                                         <h5>Olga </h5>
-                                        <span>Assistante</span>
+                                        <strong>Assistante</strong>
                                         <hr />
                                         <div className="social">
                                             <ButtonLink className="btn btn-sm facebook"
@@ -170,7 +154,7 @@ export default function Propos() {
                                     </div>
                                     <div className="description">
                                         <h5>Junior</h5>
-                                        <span>Poste</span>
+                                        <strong>Assistant</strong>
                                         <hr />
                                         <div className="social">
                                             <ButtonLink className="btn btn-sm facebook"
@@ -204,43 +188,8 @@ export default function Propos() {
                                         <img src={"./team/team.png"} className='img-fluid' alt="" />
                                     </div>
                                     <div className="description">
-                                        <h5>Colby Toscani</h5>
-                                        <span>Dévévoloppeur web</span>
-                                        <hr />
-                                        <div className="social">
-                                            <ButtonLink className="btn btn-sm facebook"
-                                                href="https://www.google.com"
-                                                icon={<i className="fa-brands fa-facebook"></i>}
-                                                target="_blank"
-                                                rel="noopener noreferrer"
-                                            >
-                                            </ButtonLink>
-                                            <ButtonLink
-                                                className="btn btn-sm whatsapp"
-                                                href="https://www.google.com"
-                                                icon={<i className="fa-brands fa-whatsapp"></i>}
-                                                target="_blank"
-                                                rel="noopener noreferrer">
-                                            </ButtonLink>
-                                            <ButtonLink
-                                                className="btn btn-sm telegram"
-                                                href="https://www.google.com"
-                                                icon={<i class="fa-brands fa-telegram"></i>}
-                                                target="_blank"
-                                                rel="noopener noreferrer">
-                                            </ButtonLink>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="team1">
-                                    <div className="divimg">
-                                        <img src={"./team/team.png"} className='img-fluid' alt="" />
-                                    </div>
-                                    <div className="description">
-                                        <h5>John Doe</h5>
-                                        <span>Poste</span>
+                                        <h5>Darelle</h5>
+                                        <strong>Dévévoloppeur web</strong>
                                         <hr />
                                         <div className="social">
                                             <ButtonLink className="btn btn-sm facebook"

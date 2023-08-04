@@ -54,7 +54,7 @@ export default function Footer() {
                 </ButtonLink>
                 <ButtonLink
                   className="btn btn-sm telegram"
-                  href="https://www.google.com"
+                  href="https://t.me/immigrationbyplanugo"
                   icon={<i class="fa-brands fa-telegram"></i>}
                   target="_blank"
                   rel="noopener noreferrer">
