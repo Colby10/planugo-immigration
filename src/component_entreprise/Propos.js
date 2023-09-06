@@ -83,7 +83,7 @@ export default function Propos() {
                                         <img src={"./team/team.png"} className='img-fluid' alt="" />
                                     </div>
                                     <div className="description">
-                                        <h5>Bethe Ndenga</h5>
+                                        <h5>Berthe Ndenga</h5>
                                         <strong>Assistance</strong>
                                         <hr />
                                         <div className="social">
@@ -188,7 +188,7 @@ export default function Propos() {
                                         <img src={"./team/team.png"} className='img-fluid' alt="" />
                                     </div>
                                     <div className="description">
-                                        <h5>Darelle</h5>
+                                        <h5>Darel</h5>
                                         <strong>Dévévoloppeur web</strong>
                                         <hr />
                                         <div className="social">
