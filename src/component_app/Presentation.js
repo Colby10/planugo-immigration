@@ -14,7 +14,7 @@ export default function Presentation() {
             <div className=" mb-5 ee">
                 <div className="row g-3">
                     <div className="wrap-presentation">
-                        <h3 className='mt-4'>L'immigration Canadienne n'a jamais été Aussi facile !o</h3>
+                        <h3 className='mt-4'>L'immigration Canadienne n'a jamais été Aussi facile !</h3>
                         <p className='mt-3 fw-bold'>
                             PlanUGo a été créer en février 2015 par Esther FOTSE. L'idée derrière cette
                             startup était de connecter des passionnés de voyager qui souhaitent découvrir
