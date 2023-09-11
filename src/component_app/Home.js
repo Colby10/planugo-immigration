@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Carrousel from '../component_reuseable/Carrousel'
 import NosDestination from './NosDestination'
-import Blog from './Blog'
+//import Blog from './Blog'
 import Temoignage from './Temoignage'
 import Presentation from './Presentation'
 
@@ -25,7 +25,7 @@ function Home() {
         </div>
       </div>
       <NosDestination />
-      <Blog />
+      {/*<Blog />*/}
       <Temoignage />
       <Footer />
     </>
