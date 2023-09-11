@@ -13,7 +13,7 @@ export default function Carrousel() {
                             <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By Planugo</h2>
                             <p className="wow slideInLeft" data-wow-duration="2s">
                                 Une conseillère en 'immigration Canadien qui donne l'opportunité aux personnes, aux 
-                                familles et aux entreprises de réaliser leur rêve d'nnqnfqnfqnfoqj  au Canada.
+                                familles et aux entreprises de réaliser leur rêve d'établissement  au Canada.
                             </p>
                         </div>
                     </div>
