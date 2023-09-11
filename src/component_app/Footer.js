@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="row g-3 ">
             <div className="col-md-3 logo">
               <a href="/"  className="navbar-brand ab"> 
-                <img src={"/logo/logo1.jpg"} alt="logo" />
+                <img src={"/logo/logo.png"} alt="logo" />
               </a>
               <h5>Services d'aide d'immigration sur mesure</h5>
             </div>
