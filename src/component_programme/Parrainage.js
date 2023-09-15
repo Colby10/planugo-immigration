@@ -26,7 +26,7 @@ export default function Parrainage() {
                         <div className="col-md-6">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <iframe className="embed-responsive-item" title='video-entree-express'
-                                    src={".:/../public/présentation_immigration.mp4"} allowfullscreen> 
+                                    src={"../../public/présentation_immigration.mp4"} allowfullscreen> 
                                 </iframe>
                             </div>
                         </div>
