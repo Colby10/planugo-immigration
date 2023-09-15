@@ -10,7 +10,7 @@ export default function Carrousel() {
                     <div className="carousel-item active">
                         <img src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large" className="d-block w-100" alt="..." />
                         <div className="text-box">
-                            <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By Planugo</h2>
+                            <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By darel</h2>
                             <p className="wow slideInLeft" data-wow-duration="2s">
                                 Une conseillère en 'immigration Canadien qui donne l'opportunité aux personnes, aux 
                                 familles et aux entreprises de réaliser leur rêve d'établissement  au Canada.
