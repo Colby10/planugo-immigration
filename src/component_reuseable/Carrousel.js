@@ -10,10 +10,10 @@ export default function Carrousel() {
                     <div className="carousel-item active">
                         <img src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large" className="d-block w-100" alt="..." />
                         <div className="text-box">
-                            <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By darel</h2>
+                            <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By PlanUGo</h2>
                             <p className="wow slideInLeft" data-wow-duration="2s">
-                                Une conseillère en 'immigration Canadien qui donne l'opportunité aux personnes, aux 
-                                familles et aux entreprises de réaliser leur rêve d'établissement  au Canada.
+                                Une conseillère en immigration Canadienne qui donne l'opportunité aux personnes, aux 
+                                familles et aux entreprises de réaliser leurs rêvent d'établissement  au Canada.
                             </p>
                         </div>
                     </div>
@@ -22,8 +22,8 @@ export default function Carrousel() {
                         <div className="text-box">
                             <h2 className="wow fadeInUp" data-wow-duration="4s">Immigration by Planugo</h2>
                             <p className="wow fadeInUp" data-wow-duration="2s">
-                                Une conseillère en d'immigration Canadien qui donne l'opportunité aux personnes, aux 
-                                familles et aux entreprises de réaliser leur rêve d'établissement au Canada.
+                                Une conseillère en immigration Canadienne qui donne l'opportunité aux personnes, aux 
+                                familles et aux entreprises de réaliser leurs rêvent d'établissement au Canada.
                             </p>
                         </div>
                     </div>
@@ -32,8 +32,8 @@ export default function Carrousel() {
                         <div class="text-box">
                             <h2 className="wow slideInUp" data-wow-duration="4s" >Immigration by Planugo</h2>
                             <p className="wow fadeInDown" data-wow-duration="4s">
-                                Une conseillère en d'immigration Canadien qui donne l'opportunité aux personnes, aux 
-                                familles et aux entreprises de réaliser leur rêve d'établissement au Canada. 
+                                Une conseillère en immigration Canadienne qui donne l'opportunité aux personnes, aux 
+                                familles et aux entreprises de réaliser leurs rêvent d'établissement au Canada. 
                             </p>
                         </div>
                     </div>
