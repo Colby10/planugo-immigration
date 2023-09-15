@@ -16,7 +16,7 @@ export default function PermitEtude() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Permis d'étude</h1>
-                    <p><a href="/">Acceuil -</a> Permis d'étude</p>
+                    <p><a href="/">Canada -</a> Permis d'étude</p>
                 </div>
             </div>
             <div className="container">

@@ -17,7 +17,7 @@ export default function ResidencePermante() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Résidence permanente.</h1>
-                    <p><a href="/">Acceuil -</a> Résidence permanente.</p>
+                    <p><a href="/">Canada -</a> Résidence permanente.</p>
                 </div>
             </div>
             <div className="container">

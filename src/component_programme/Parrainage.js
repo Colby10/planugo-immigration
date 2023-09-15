@@ -16,7 +16,7 @@ export default function Parrainage() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Parrainage au conjoint canadien</h1>
-                    <p><a href="/">Acceuil -</a> Parrainage au conjoint canadien</p>
+                    <p><a href="/">Canada -</a> Parrainage au conjoint canadien</p>
                 </div>
             </div>
             <div className="container">
@@ -26,7 +26,7 @@ export default function Parrainage() {
                         <div className="col-md-6">
                             <div className="embed-responsive embed-responsive-16by9">
                                 <iframe className="embed-responsive-item" title='video-entree-express'
-                                    src="https://www.youtube.com/embed/FCEPfHhHc2Y " allowfullscreen> 
+                                    src={"./public/présentation_immigration.mp4"} allowfullscreen> 
                                 </iframe>
                             </div>
                         </div>

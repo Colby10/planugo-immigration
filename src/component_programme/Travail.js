@@ -16,7 +16,7 @@ export default function Travail() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Permis de travail</h1>
-                    <p><a href="/">Acceuil -</a> Permis de travail</p>
+                    <p><a href="/">Canada -</a> Permis de travail</p>
                 </div>
             </div>
             <div className="container">
