@@ -131,7 +131,7 @@ export default function ModalPostuler() {
                     <div className="modal-header">
                         <h5 className="modal-title" id="exampleModalLabel">Informations générales</h5>
                         <Button className="btn btn-fermer btn-sm" data_dismiss="modal">
-                            <i className="bi bi-x-lg"></i>  Fermer</Button>
+                            <i className="bi bi-x-lg"></i> Fermer</Button>
                     </div>
                     <div className="modal-body">
                         <form action="/" onSubmit={handleValidation} >
@@ -141,7 +141,7 @@ export default function ModalPostuler() {
                                     type="text"
                                     name="nom"
                                     onChange={handleInput}
-                                    placeholder="Nom"
+                                    placeholder="Nom condidat"
                                     erreur={errors.nom && <span className='errors_input' style={{ color: "red" }}>{errors.nom}</span>}
                                     required
                                 />
@@ -150,7 +150,7 @@ export default function ModalPostuler() {
                                     type="text"
                                     name="prenom"
                                     onChange={handleInput}
-                                    placeholder="Prénom"
+                                    placeholder="Prénom condidat"
                                     erreur={errors.prenom && <span className='errors_input' style={{ color: "red" }}>{errors.prenom}</span>}
                                     required
                                 />
@@ -159,7 +159,7 @@ export default function ModalPostuler() {
                                     type="email"
                                     name="email"
                                     onChange={handleInput}
-                                    placeholder="Email"
+                                    placeholder="Email condidat"
                                     erreur={errors.email && <span className='errors_input' style={{ color: "red" }}>{errors.email}</span>}
                                     required
                                 />

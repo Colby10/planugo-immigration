@@ -16,7 +16,7 @@ export default function Parrainage() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Parrainage au conjoint canadien</h1>
-                    <p><a href="/">Acceuil -</a> Parrainage au conjoint canadien</p>
+                    <p><a href="/">Canada -</a> Parrainage au conjoint canadien</p>
                 </div>
             </div>
             <div className="container">

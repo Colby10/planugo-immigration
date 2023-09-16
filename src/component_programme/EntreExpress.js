@@ -17,7 +17,7 @@ export default function EntreExpress() {
             <div className="wrap-express">
                 <div className="container">
                     <h1>Entrée express</h1>
-                    <p><a href="/">Acceuil -</a> Entrée express</p>
+                    <p><a href="/canada">Canada -</a> Entrée express</p>
                 </div>
             </div>
             <div className="container">
