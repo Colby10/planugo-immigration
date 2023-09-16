@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/presentation.css';
+//import '../css/presentation.css';
 import ButtonLink from '../component_reuseable/ButtonLink';
 
 

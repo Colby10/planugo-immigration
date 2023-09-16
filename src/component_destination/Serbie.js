@@ -1,86 +1,33 @@
 import React from 'react'
-import '../css/canada.css';
-import Navbar from '../component_app/Navbar';
+import '../css/russie.css'
+import Navbar from '../component_app/Navbar'
 import Footer from '../component_app/Footer';
-import ServiceCanada from '../component_reuseable/ServiceCanada';
-import Works from '../component_reuseable/Works';
 
 
-export default function Moldavie() {
+export default function Russie() {
     return (
         <>
             <Navbar />
-            <div className='section_canada'>
-                <div className="container">
-                    <div className="wrap-content-canada">
-                        <h1>COMMENT CA MARCHE</h1>
-                        <div className="spaceOne"></div>
-                        <div className="comment">
-                            <div className="row g-4">
-                                <Works 
-                                    src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                    titre="Contacter nous maintenant"
-                                    href="/contact"
-                                    description="Commencer "
-                                    icon={<i className="fa-regular fa-circle-right"></i>}
-                                />
-                                <Works 
-                                    src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                    titre="Ouvrez votre dossier"
-                                    href="/contact"
-                                    description="Commencer "
-                                    icon={<i className="fa-regular fa-circle-right"></i>}
-                                />
-                                <Works 
-                                    src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                    titre="Obtenez votre Visa"
-                                    href="/contact"
-                                    description="Commencer "
-                                    icon={<i className="fa-regular fa-circle-right"></i>}
-                                />
-                                <Works 
-                                    src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                    titre="Voyager pour la Serbie"
-                                    href="/contact"
-                                    description="Commencer "
-                                    icon={<i className="fa-regular fa-circle-right"></i>}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="section_service">
+
+            <div className="section_service_russie">
                 <div className="container">
                     <h1>NOS SERVICES</h1>
                     <div className="spaceOne"></div>
                     <div className="services">
-                        <div className="row g-4">
-                            <ServiceCanada 
-                                src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                titre="Accompagnement"
-                                texte1="Que vous offre le service d'accompagnement en Serbie ?"
-                                href="/"
-                                lire="Lire plus"
-                                icon={<i className="fa-regular fa-circle-right"></i>}
-                            />
-                            <ServiceCanada 
-                                src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                titre="Permis d’études"
-                                texte1="Obtenir des avantages en étudiant en Serbie "
-                                href="/"
-                                lire="Lire plus"
-                                icon={<i className="fa-regular fa-circle-right"></i>}
-                            />
-                            <ServiceCanada 
-                                src="https://www.shareicon.net/data/512x512/2016/09/15/829452_user_512x512.png"
-                                titre="Permis de travail"
-                                texte1="Comment fonctionnent les permis de travail en Serbie "
-                                href="/"
-                                lire="Lire plus"
-                                icon={<i className="fa-regular fa-circle-right"></i>}
-                            />
-                        </div>
+                        <h5>Cher réseau,</h5>
+                        <p>
+                            Afin de répondre aux demandes des étudiants que nous recevons, Planugo a 
+                            décidé de diversifier les offres que nous proposons. 
+                            Désormais, nous ouvrons ces nouveaux pays. Ci-dessous les conditions. Il 
+                            est temps de préparer votre rentrée scolaire 2023 / 2024 : <br /> <br />
+                            <span><strong>Frais de dossier : 100.000 francs non remboursables</strong></span>
+
+                        </p>
+                        <h5 className='pays'>- Serbie :</h5>
+                        <p>
+                            Vous pourrez partir que vous avez le bac ou non. La procédure dure 6-8 semaines. <br />
+                            Coût: <strong>2.7 millions</strong> dont une avance de <strong>500.000  francs</strong>.
+                        </p>
                     </div>
                 </div>
             </div>

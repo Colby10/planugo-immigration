@@ -1,0 +1,66 @@
+:root {
+    --fontWeight-helvetica-light: 300;
+    --fontWeight-helvetica-regular: 400;
+    --fontWeight-helvetica-bold: 700;
+    --fontWeight-helvetica-extra-bold: 900;
+    --fontFamily-helvetica: 'Helvetica', sans-serif;
+}
+:root {
+    --colorOrange: #EB6425;
+    --colorBleu: #13ABE4;
+    --colorVert: #85C141;
+    --colorBlanche: #FFFFFF;
+    --colorNoir: #292929;
+    --colorModalContent:#F8F4F9;
+
+    /************************Nos services****************************/
+}
+.section_service_russie{
+    background-color: rgba(19, 171, 228, .10) !important;
+    /*background-color: rgba(240, 240, 240, 100) !important;*/
+    padding: 15px 0px 15px 0px;
+}
+
+.section_service_russie h1{
+    color: var(--colorBleu);
+    font-weight: var(--fontWeight-helvetica-extra-bold);
+    margin-top: 80px;
+}
+.spaceOne{
+    width: 100px;
+    height: 5px;
+    background-color: var(--colorOrange) !important;
+    margin: 0px 0 20px 0;
+}
+
+.section_service_russie .services{
+    width: 800px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: var(--colorBlanche) !important;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 50px;
+}
+.services h5{
+    font-weight: var(--fontWeight-helvetica-bold);
+}
+.services .pays{
+    color: var(--colorOrange);
+}
+
+
+
+/* #Media
+================================================== */
+
+@media (max-width: 767px) { 
+
+    .section_service_russie .services{
+        width: auto;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+}

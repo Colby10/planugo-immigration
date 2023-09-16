@@ -4,7 +4,7 @@ import Navbar from '../component_app/Navbar'
 import Footer from '../component_app/Footer';
 
 
-export default function Moldavie() {
+export default function Russie() {
     return (
         <>
             <Navbar />
@@ -23,13 +23,14 @@ export default function Moldavie() {
                             <span><strong>Frais de dossier : 100.000 francs non remboursables</strong></span>
 
                         </p>
-                        <h5 className='pays'>- Moldavie :</h5>
+                        <h5 className='pays'>- Lettonie :</h5>
                         <p>
-                            Visa touriste disponible en 6-8 semaines <br />
-                            Coût: <strong>2.5millions cfa </strong> - avance <strong>500.000 francs </strong> <br />
-                            Pour chaque pays, l’étudiants devra fournir : Passeport/acte de naissance / demi-photo en format numérique <br />
+                            Rentrée prévue en <strong>septembre / octobre</strong> <br />
+                            La scolarité est payée soit une avance ici ou en totalité sur place ( en fonction de l’école qui va vous accepter.
+                            Prévoir <strong>2 millions </strong> pour l’hébergement et l’école). La procédure dure 3-4 semaines. <br />
+                            Coût: <strong>1 million </strong> à payer en début de procédure.
 
-                            <strong>Ps:</strong> il n’y a pas de commission de <strong>5%</strong> sur ces procédures. c’est uniquement pour le canada. 
+
 
                         </p>
                     </div>

@@ -31,12 +31,13 @@ function Navbar() {
                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
                       <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="/" role="button" aria-haspopup="true" aria-expanded="false">Nos destinations</a>
                       <div className="dropdown-menu">
-                        <a className="dropdown-item" href="/allemagne">Allemagne</a>
+                        {/*<a className="dropdown-item" href="/allemagne">Allemagne</a>*/}
                         <a className="dropdown-item" href="/russie">Russie</a>
                         <a className="dropdown-item" href="/bielorussie">Bielorussie</a>
                         <a className="dropdown-item" href="/chypre">Chypre</a>
                         <a className="dropdown-item" href="/moldavie">Moldavie</a>
                         <a className="dropdown-item" href="/serbie">Serbie</a>
+                        <a className="dropdown-item" href="/lettonie">Lettonie</a>
                       </div>
                     </li>
                     <li className="nav-item pl-4 pl-md-0 ml-0 ml-md-4">

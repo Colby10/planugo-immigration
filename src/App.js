@@ -24,6 +24,7 @@ import Bielorussie from './component_destination/Bielorussie';
 import Chypre from './component_destination/Chypre';
 import Moldavie from './component_destination/Moldavie';
 import Serbie from './component_destination/Serbie';
+import Lettonie from './component_destination/Lettonie';
 import EntreExpress from './component_programme/EntreExpress';
 import  ResidencePermante from './component_programme/ResidencePermante';
 import Parrainage from './component_programme/Parrainage';
@@ -82,6 +83,7 @@ function App() {
           <Route path='/bielorussie' element={<Bielorussie/>}/>
           <Route path='/chypre' element={<Chypre/>}/>
           <Route path='/moldavie' element={<Moldavie/>}/>
+          <Route path='/lettonie' element={<Lettonie/>}/>
           <Route path='/serbie' element={<Serbie/>}/>
           <Route path='/entree-express' element={<EntreExpress/>}/>
           <Route path='/residence-permanente' element={<ResidencePermante/>}/>
