@@ -19,7 +19,7 @@ const Faq = () => {
         <div className="container">
             <div className="centre_aide">
                 <h3>1. Qu'est-ce que Immigration by planugo ?</h3>
-                <p>  Immigration By PlanUgo est une agence d'immigration basé dans la recherceh et le placement des candidats qualifier pour les entreprises au canada.
+                <p>  fotso d'immigration basé dans la recherceh et le placement des candidats qualifier pour les entreprises au canada.
                 </p>
 
                 <h3>2. Comment nous trouver ?</h3>
@@ -42,7 +42,7 @@ const Faq = () => {
                 <h3>4.  Pourquoi choisir Immigration by planugo ?</h3>
                 <p> PlanUgo offre à ses candidats une transparence et une intégrité dans notre travail</p>
 
-                <h3>5. Quels sont les moyens de paiement acceptés par immigration PlanUgo ?</h3>
+                <h4>5. Quels sont les moyens de paiement acceptés par immigration PlanUgo ?</h4>
                 <p>Les payements peuvent s'effectuer par Orange Money, Mobile Money, Paypal, MoneyGram, ou en espèce</p>
 
                 <h3>6. Comment se déroule notre procedure ?</h3>
