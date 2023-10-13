@@ -8,7 +8,7 @@ export default function Carrousel() {
             <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large" className="d-block w-100" alt="..." />
+                        <img src="https://pbs.twimg.com/media/EGHYvttU4AAYKb7?format=jpg&name=large" className="d-block w-100 imgD" alt="..." />
                         <div className="text-box">
                             <h2 className="wow slideInRight" data-wow-duration="2s">Immigration By PlanUGo</h2>
                             <p className="wow slideInLeft" data-wow-duration="2s">
@@ -18,7 +18,7 @@ export default function Carrousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://pbs.twimg.com/media/EGHYvtkUcAAuc8T?format=jpg&name=large" className="d-block w-100" alt="..." />
+                        <img src="https://pbs.twimg.com/media/EGHYvtkUcAAuc8T?format=jpg&name=large" className="d-block w-100 imgD" alt="..." />
                         <div className="text-box">
                             <h2 className="wow fadeInUp" data-wow-duration="4s">Immigration by Planugo</h2>
                             <p className="wow fadeInUp" data-wow-duration="2s">
@@ -28,7 +28,7 @@ export default function Carrousel() {
                         </div>
                     </div>
                     <div className="carousel-item">
-                        <img src="https://pbs.twimg.com/media/EGHYvtjU0AAO8w1?format=jpg&name=large" className="d-block w-100" alt="..." />
+                        <img src="https://pbs.twimg.com/media/EGHYvtjU0AAO8w1?format=jpg&name=large" className="d-block w-100 imgD" alt="..." />
                         <div class="text-box">
                             <h2 className="wow slideInUp" data-wow-duration="4s" >Immigration by Planugo</h2>
                             <p className="wow fadeInDown" data-wow-duration="4s">
